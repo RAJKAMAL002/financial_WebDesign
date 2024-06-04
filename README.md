@@ -5,6 +5,11 @@ Website is Built using Vite React
 - Designing is Done using Tailwind css
 - Used few react hooks like useState
 - figma template : https://www.figma.com/design/dvc71PcUEYRKrtnZOapRtI/App-Landing-Page-Finance-Bank-Money-(Community)?m=dev&node-id=0-1&t=uyErxTIHgm8nS2dC-1
+
+# Instruction to Run Project
+- Install the file in your PC
+- install node_modules in the root folder (command : npm i)
+- Run Project ( command : npm run dev)
   
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
