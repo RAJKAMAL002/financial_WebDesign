@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-shadow-md {
+  text-shadow: 0 5px 5px rgb(185, 185, 185);
+}
+.custom-gradient {
+  background: linear-gradient(#ff0000 0%, #ff0000 40%, #ffff00 100%);
+  border-radius: 9999px;
+  width: 270px;
+  height: 150px;
+  filter: blur(50px);
+}
+.custom-gradient1 {
+  background: linear-gradient(#ff0000 0%, #ff0000 40%, red 100%);
+  border-radius: 9999px;
+  width: 270px;
+  height: 150px;
+  filter: blur(50px);
+}
+.custom-gradient3 {
+  background: linear-gradient(#ffff00 0%, #ff0000 100%);
+  border-radius: 9999px;
+  width: 270px;
+  height: 150px;
+  filter: blur(50px);
+}
+.trap {
+  clip-path: polygon(10% 0%, 75% 0%, 100% 100%, 0% 100%);
+}
